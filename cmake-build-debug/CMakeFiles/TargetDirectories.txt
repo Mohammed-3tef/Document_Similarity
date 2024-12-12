@@ -1,0 +1,3 @@
+C:/Users/fr/OneDrive/Desktop/Document Similarity/cmake-build-debug/CMakeFiles/New_folder.dir
+C:/Users/fr/OneDrive/Desktop/Document Similarity/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fr/OneDrive/Desktop/Document Similarity/cmake-build-debug/CMakeFiles/rebuild_cache.dir
