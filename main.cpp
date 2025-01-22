@@ -87,16 +87,17 @@ public:
 
     // Add a word to the set.
     void addString (string& currentWord) {
+        // Convert the word to lowercase and Insert the word into the set.
+        for (char& character : currentWord) {
+            character = tolower(character);
+        }
+        
         // If the word is found in the set, don't insert it.
         if (find(words.begin(), words.end(), currentWord) != words.end()) {
             cout << "The Word is Already Found..." << endl << endl;
             return;
         }
 
-        // Convert the word to lowercase and Insert the word into the set.
-        for (char& character : currentWord) {
-            character = tolower(character);
-        }
         words.push_back(currentWord);
         cout << "The Word is Added Successfully..." << endl << endl;
     }
